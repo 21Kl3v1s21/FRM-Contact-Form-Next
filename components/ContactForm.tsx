@@ -152,7 +152,7 @@ export default function ContactForm() {
           <input type="file" name="file" id="file" className="text-black" onChange={handleFileChange} />
         </div>
 
-       <ReCAPTCHA sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!} size="invisible" ref={recaptchaRef} />
+       
 
         <button
           type="submit"
